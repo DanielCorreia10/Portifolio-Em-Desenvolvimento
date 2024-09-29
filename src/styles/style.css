@@ -1,0 +1,32 @@
+body{
+
+    background-color: rgb(214, 214, 214);
+    
+}
+
+header{
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+}
+
+.contatos img{
+    width: 30px;
+}
+
+#habilidades img{
+    width: 200px;
+}
+
+.projeto{
+    display: flex;
+    flex-direction: column;
+
+}
