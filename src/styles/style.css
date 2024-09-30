@@ -67,11 +67,11 @@ header button {
     border-radius: 3px;
     height: 35px;
     color: white;
-     background-color: rgb(214, 214, 214); 
+    background-color: rgb(214, 214, 214);
     background: none;
     cursor: pointer;
     transition: 0.3s;
-} 
+}
 
 /* header button {
 
@@ -95,10 +95,10 @@ header button {
 } */
 
 
- header button:hover {
+header button:hover {
     transform: scale(1.09);
-    
-} 
+
+}
 
 main {
     padding-top: 80px;
@@ -106,22 +106,25 @@ main {
 
 .apresentacao {
     position: relative;
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 80vh;
+    overflow: hidden;
+    /* Garante que a imagem ampliada não ultrapasse o contêiner */
 
-    
 }
 
 .fundo {
     position: absolute;
     width: 100%;
+    height: 100%;
 
 }
 
 .imagem-do-fundo {
     width: 100%;
-    height: 500px;
+    height: 100%;
 }
 
 
@@ -161,7 +164,7 @@ main {
 } */
 
 
- .info {
+.info {
 
     display: flex;
     flex-direction: column;
@@ -174,7 +177,7 @@ main {
     margin-right: 200px;
 
 
-} 
+}
 
 .info h2 {
     position: relative;
@@ -213,25 +216,20 @@ h2 {
 }
 
 
-.perfil {
- 
-    overflow: hidden; /* Garante que a imagem ampliada não ultrapasse o contêiner */
-    position: relative;
-
-}
-
 
 .perfil img {
 
-     width: 100%; 
-    height: auto; 
-    transition:  1.2s ease; 
+    /* width: 100%;  */
+    height: 100%;
+    transition: 1.2s ease;
+    position: absolute;
+    bottom: 0;
 
 }
 
 .perfil img:hover {
 
-transform: scale(1.05);
+    transform: scale(1.05);
 
 }
 
