@@ -133,7 +133,7 @@ main {
     left: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(to right, rgb(5, 17, 48) 50%, rgba(253, 253, 253, 0) 95%);
+    background: linear-gradient(to right, rgb(5, 17, 48) 20%,rgba(5, 17, 48, 0.767) 50%, rgba(253, 253, 253, 0) 95%);
 
 }
 
